@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nalluri Teja's Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Reset CSS */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Body styling */
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f9f9f9;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        /* Navbar styling */
+        .navbar {
+            background-color: #333;
+            color: white;
+            padding: 1rem;
+            position: fixed;
+            top: 0;
+            width: 100%;
+            z-index: 1000;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .navbar ul {
+            list-style: none;
+            display: flex;
+            justify-content: space-around;
+        }
+
+        .navbar ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+            padding: 8px 16px;
+            transition: background-color 0.3s ease;
+            border-radius: 4px;
+        }
+
+        .navbar ul li a:hover {
+            background-color: #555;
+        }
+
+        /* Section styling */
+        section {
+            padding: 100px 50px;
+        }
+
+        #home {
+            background-color: #fff;
+            text-align: center;
+            padding-top: 150px;
+        }
+
+        #about {
+            background-color: #f4f4f4;
+        }
+
+        #contact {
+            background-color: #fff;
+            text-align: center;
+        }
+
+        h1, h2 {
+            color: #333;
+        }
+
+        p {
+            color: #666;
+            font-size: 18px;
+        }
+
+        .cta-button {
+            padding: 10px 20px;
+            background-color: #333;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 16px;
+            transition: background-color 0.3s ease;
+            display: inline-block;
+        }
+
+        .cta-button:hover {
+            background-color: #555;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home">
+        <h1>Welcome to My Portfolio</h1>
+        <p>Hi, I'm Nalluri Teja Naga Bhagavan, an aspiring web developer passionate about creating impactful and user-friendly web experiences.</p>
+        <a href="#contact" class="cta-button">Get In Touch</a>
+    </section>
+
+    <!-- About Me Section -->
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Hello! I'm Nalluri Teja Naga Bhagavan, a dedicated web developer with a strong foundation in front-end and back-end technologies. I am eager to learn and take on challenging responsibilities to grow and contribute meaningfully to web development projects.</p>
+        <h3>Education</h3>
+        <p>Bachelor of Computer Science Engineering, KL University, Guntur<br>CGPA: 9.24</p>
+        <h3>Skills</h3>
+        <ul>
+            <li>Front-end Web Development: HTML, CSS, JavaScript</li>
+            <li>Programming Languages: Java, Python, C</li>
+            <li>Strong understanding of Object-Oriented Programming (OOP)</li>
+            <li>Database Management</li>
+        </ul>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>If you'd like to work with me or just say hello, feel free to drop a message!</p>
+        <a href="mailto:nalluriteja40@gmail.com" class="cta-button">nalluriteja@example.com</a>
+    </section>
+
+</body>
+</html
